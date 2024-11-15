@@ -1,0 +1,78 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '90829ED4FB5AF1186F46A95630D2D1AF',
+    participant: undefined
+  },
+  messageTimestamp: 1731626645,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '51949361317'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_70c7d610-8616-4e9f-b566-8f27241d868e',
+  keyword: 'key_e3921dee-2868-40f1-89e0-c5e4fbf0330d',
+  answer: 'numeroIdentidad',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'c79df7d348f59bc44bbec36edc019dc0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '52B572CDE6979DD09A78D7AEB262C541',
+    participant: undefined
+  },
+  messageTimestamp: 1731626655,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '90306334',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '90306334',
+  from: '51949361317'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5ebf30c2-4479-4f00-a778-f15fc4548282',
+  keyword: 'ans_70c7d610-8616-4e9f-b566-8f27241d868e',
+  answer: 'categoría',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '82f707b15d5b88373e99b16aa1f1523b'
+}
