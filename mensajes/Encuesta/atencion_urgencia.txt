@@ -1,0 +1,4 @@
+¿Cómo calificaría la atención de urgencia?
+    👉 *1* - Atención Regular
+    👉 *2* - Regular
+    👉 *3* - Mala

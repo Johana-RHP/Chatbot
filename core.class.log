@@ -2,10 +2,10 @@
   key: {
     remoteJid: '51949361317@s.whatsapp.net',
     fromMe: false,
-    id: '90829ED4FB5AF1186F46A95630D2D1AF',
+    id: 'AFDB50561043A8140C9D38A7FE98F98A',
     participant: undefined
   },
-  messageTimestamp: 1731626645,
+  messageTimestamp: 1732375545,
   pushName: 'Smart1',
   broadcast: false,
   message: Message {
@@ -20,9 +20,12 @@
   from: '51949361317'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_70c7d610-8616-4e9f-b566-8f27241d868e',
-  keyword: 'key_e3921dee-2868-40f1-89e0-c5e4fbf0330d',
-  answer: 'numeroIdentidad',
+  ref: 'ans_e45c6858-abf5-4773-9710-a0eebc319204',
+  keyword: 'key_08cdb9f1-90d4-465b-93df-2474deaca3db',
+  answer: 'Mensaje de bienvenida\r\n' +
+    '¿Se atendió en triaje?\r\n' +
+    '            👉 *Si*\r\n' +
+    '            👉 *No*',
   options: {
     media: null,
     buttons: [],
@@ -35,16 +38,37 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c79df7d348f59bc44bbec36edc019dc0'
+  refSerialize: '8649ae77a16655494a6d0ce6ee6ee2b6'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51949361317@s.whatsapp.net',
     fromMe: false,
-    id: '52B572CDE6979DD09A78D7AEB262C541',
+    id: '8E38EB2CFDAC85469A1E0615B60BC1DE',
     participant: undefined
   },
-  messageTimestamp: 1731626655,
+  messageTimestamp: 1732375548,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: 'Si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Si',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '2A344D34946ED73CB9F5B2A6B3D4F0FF',
+    participant: undefined
+  },
+  messageTimestamp: 1732375553,
   pushName: 'Smart1',
   broadcast: false,
   message: Message {
@@ -58,21 +82,312 @@
   body: '90306334',
   from: '51949361317'
 }
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: 'D7E25FE1A1F9BBAD3D043FF4D5B7CE79',
+    participant: undefined
+  },
+  messageTimestamp: 1732375564,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '68CCBBC6686F086E789366A7579950CB',
+    participant: undefined
+  },
+  messageTimestamp: 1732375572,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: 'Usnnwoujbw',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Usnnwoujbw',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: 'FEC8E4371C9FBC94A719D2B37A8A70EB',
+    participant: undefined
+  },
+  messageTimestamp: 1732375576,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '70950C5E58EBFAE194DAD47E35A821CF',
+    participant: undefined
+  },
+  messageTimestamp: 1732375581,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jiznmodokxn',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Jiznmodokxn',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '97D93235811D67ACF5DADEC652E7CD95',
+    participant: undefined
+  },
+  messageTimestamp: 1732375605,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '1D9F6C0DB5271A091C018E8EF14C45C9',
+    participant: undefined
+  },
+  messageTimestamp: 1732375616,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: 'F604F2109F32F3971468ABEF3F889615',
+    participant: undefined
+  },
+  messageTimestamp: 1732375622,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '4',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '068373A3E349EE4260CCBA8793601324',
+    participant: undefined
+  },
+  messageTimestamp: 1732375629,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '3',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '0EBBCC3D7B3A8F8BDF8A570800570863',
+    participant: undefined
+  },
+  messageTimestamp: 1732375633,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '0',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '0',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '0F8E8E2F150D33E4C79EF3CDCEC9A042',
+    participant: undefined
+  },
+  messageTimestamp: 1732375638,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: 'Isiwknwl',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Isiwknwl',
+  from: '51949361317'
+}
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5ebf30c2-4479-4f00-a778-f15fc4548282',
-  keyword: 'ans_70c7d610-8616-4e9f-b566-8f27241d868e',
-  answer: 'categoría',
+  ref: 'ans_9ab2d331-4876-41b5-976e-90369345c9cf',
+  keyword: 'ans_777a3244-0d98-4759-8a41-5ecc85f3b97a',
+  answer: '¿Cuál es la fecha de inicio? (YYYY-MM-DD)',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '82f707b15d5b88373e99b16aa1f1523b'
+  refSerialize: 'f515238b8ab72b288559e1ffd8908b5c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '26BEFF3709B3E32F4DB53153F1CFD454',
+    participant: undefined
+  },
+  messageTimestamp: 1732375654,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '12/12/2024',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '12/12/2024',
+  from: '51949361317'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5e6ca4e7-50ce-47d1-903b-c5e29cd4aa00',
+  keyword: 'ans_9ab2d331-4876-41b5-976e-90369345c9cf',
+  answer: '¿Cuál es la fecha final del evento? (YYYY-MM-DD)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '94ff56f89e380d81a023d0b354506ab8'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: 'F2FF90F8B77D0D06B868770C44A87A04',
+    participant: undefined
+  },
+  messageTimestamp: 1732375666,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '18/12/205',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '18/12/205',
+  from: '51949361317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51949361317@s.whatsapp.net',
+    fromMe: false,
+    id: '1B15289D7F2F13BB4670BD93BA41989A',
+    participant: undefined
+  },
+  messageTimestamp: 1732375732,
+  pushName: 'Smart1',
+  broadcast: false,
+  message: Message {
+    conversation: '18/12/2025',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '18/12/2025',
+  from: '51949361317'
 }

@@ -1,0 +1,6 @@
+Grado de recuperación:
+    👉 *1* - Completamente recuperado
+    👉 *2* - Recuperado
+    👉 *3* - Estable 
+    👉 *4* - Empeorado
+    👉 *5* - Totalmente deteriorado

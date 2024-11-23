@@ -1,0 +1,3 @@
+*Categoría* *C4*
+Basado en sus signos vitales y la inspección de la enfermera, su categoría de Urgencia es C4. Esta clasificación indica una atención no urgente y sin riesgo vital. Puede requerir atención médica, pero su condición permite una espera razonable.
+*Tiempo* *de* *espera* *aproximado:* Entre 1 y 2 horas.

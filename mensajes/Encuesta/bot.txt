@@ -1,0 +1,4 @@
+¿Cómo calificaría la atención recibida por el bot?
+    👉 *1* - Buena
+    👉 *2* - Regular
+    👉 *3* - Mala

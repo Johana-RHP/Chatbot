@@ -1,0 +1,4 @@
+Mensaje de bienvenida
+¿Se atendió en triaje?
+            👉 *Si*
+            👉 *No*

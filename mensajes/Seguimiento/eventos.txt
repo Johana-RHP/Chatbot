@@ -1,0 +1,6 @@
+¿Ha tenido alguno de los siguientes eventos?
+    👉 *1* - Hospitalización
+    👉 *2* - Ingreso a UCI
+    👉 *3* - Cirugía de emergencia
+    👉 *4* - Complicación médica
+    👉 *5* - Otro
