@@ -711,44 +711,45 @@ const flujoSeguimiento = addKeyword(EVENTS.ACTION)
     );
 
 const flowAtencionRegular = addKeyword(EVENTS.ACTION)
-.addAnswer("Deje su comentario.", { capture: true }, async (ctx, { state, flowDynamic, gotoFlow }) => {
-    console.log(`Comentario del usuario: `, ctx.body);
+    .addAnswer("Deje su comentario.", { capture: true }, async (ctx, { state, flowDynamic, gotoFlow }) => {
+        console.log(`Comentario del usuario: `, ctx.body);
 
-    // Obtener el último id de la tabla chat_encuesta
-    const result = await queryDatabase(
-        'SELECT chat_id FROM "chat_encuesta" WHERE chat_id = $1 ORDER BY chat_id DESC LIMIT 1',
-        [chatBotId] // Pasamos chatBotId como parámetro
-    );
-
-    if (result.rowCount > 0) {
-        const lastChatEncuestaId = result.rows[0].chat_id;
-        console.log('Último id de chat_encuesta:', lastChatEncuestaId);
-
-        // Actualizar la columna opinion_atencion con el comentario del usuario
-        await queryDatabase(
-            'UPDATE "chat_encuesta" SET opinion_atencion = $1 WHERE id = $2',
-            [ctx.body, lastChatEncuestaId]
+        // Obtener el último id de la tabla chat_encuesta
+        const result = await queryDatabase(
+            'SELECT chat_id FROM "chat_encuesta" WHERE chat_id = $1 ORDER BY chat_id DESC LIMIT 1',
+            [chatBotId] // Pasamos chatBotId como parámetro
         );
-        console.log(`Valor de opinion_atencion actualizado con: ${ctx.body}`);
-    } else {
-        console.log('No se encontró ningún registro en chat_encuesta.');
-    }
 
-    await flowDynamic('Gracias por responder la encuesta');
-        const hora = new Date();
-        const horaEncuestaAtencion = new Date(hora.getTime());
+        if (result.rowCount > 0) {
+            const lastChatEncuestaId = result.rows[0].chat_id;
+            console.log('Último id de chat_encuesta:', lastChatEncuestaId);
 
-        const horaSeguimiento = new Date(horaEncuestaAtencion.getTime());
-        horaSeguimiento.setSeconds(horaSeguimiento.getSeconds() + 5);
+            // Actualizar la columna opinion_atencion con el comentario del usuario
+            await queryDatabase(
+                'UPDATE "chat_encuesta" SET opinion_atencion = $1 WHERE id = $2',
+                [ctx.body, lastChatEncuestaId]
+            );
+            console.log(`Valor de opinion_atencion actualizado con: ${ctx.body}`);
+        } else {
+            console.log('No se encontró ningún registro en chat_encuesta.');
+        }
 
-        console.log('Hora de la encuesta Atención:', horaEncuestaAtencion.toLocaleString('es-PE', { timeZone: 'America/Lima' }));
-        console.log('Hora del seguimiento:', horaSeguimiento.toLocaleString('es-PE', { timeZone: 'America/Lima' }));
-        // Programar el envío del seguimiento
-        schedule.scheduleJob(horaSeguimiento, function () {
-            console.log('gotoFlow enviado');
-            return gotoFlow(flujoSeguimiento);
-        });
-    })
+        await flowDynamic('Gracias por responder la encuesta');
+            const hora = new Date();
+            const horaEncuestaAtencion = new Date(hora.getTime());
+
+            const horaSeguimiento = new Date(horaEncuestaAtencion.getTime());
+            horaSeguimiento.setSeconds(horaSeguimiento.getSeconds() + 5);
+
+            console.log('Hora de la encuesta Atención:', horaEncuestaAtencion.toLocaleString('es-PE', { timeZone: 'America/Lima' }));
+            console.log('Hora del seguimiento:', horaSeguimiento.toLocaleString('es-PE', { timeZone: 'America/Lima' }));
+            // Programar el envío del seguimiento
+            schedule.scheduleJob(horaSeguimiento, function () {
+                console.log('gotoFlow enviado');
+                return gotoFlow(flujoSeguimiento);
+            });
+        }
+    );
 
 const flowAtencionMala = addKeyword(EVENTS.ACTION)
     .addAnswer("Deje su comentario.", { capture: true }, async (ctx, { state, flowDynamic, gotoFlow }) => {
@@ -788,7 +789,8 @@ const flowAtencionMala = addKeyword(EVENTS.ACTION)
             console.log('gotoFlow enviado');
             return gotoFlow(flujoSeguimiento);
         });
-        });
+        }
+    );
 
 const flowEncuestaAtencion = addKeyword(EVENTS.ACTION)
     .addAnswer(
@@ -871,7 +873,7 @@ const flowBotMala = addKeyword(EVENTS.ACTION)
 
             return gotoFlow(flowEncuestaAtencion);
         }
-    )
+    );
 
 const flowBotRegular = addKeyword(EVENTS.ACTION)
     .addAnswer(
@@ -1076,7 +1078,7 @@ const flujoTriajeSi = addKeyword(EVENTS.ACTION)
     });
 
 const flujoTriajeNo = addKeyword(EVENTS.ACTION)
-    .addAnswer(triajeNo)
+    .addAnswer(triajeNo);
 
 const FlujoBienvenida = addKeyword(["hola"])
     .addAnswer(
