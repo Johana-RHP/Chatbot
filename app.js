@@ -1099,7 +1099,7 @@ const FlujoBienvenida = addKeyword(["hola"])
                 return fallBack("Por favor, responde 'sí' o 'no' para continuar.");
             }
         }
-    )
+    );
 
 // Función principal para iniciar el bot
 const main = async () => {
